@@ -1,4 +1,5 @@
-import { createRequire } from "https://deno.land/std@0.149.0/node/module.ts";
+// import { createRequire } from "https://deno.land/std@0.149.0/node/module.ts";
+import { createRequire } from "https://raw.githubusercontent.com/kt3k/deno_std/require-debug/node/module.ts";
 import { serve } from "https://deno.land/std@0.149.0/http/server.ts";
 const require = createRequire(import.meta.url);
 //const a = require("./a.js");
