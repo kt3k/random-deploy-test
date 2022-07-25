@@ -5,4 +5,5 @@ const require = createRequire(import.meta.url);
 console.log(import.meta.url);
 console.log(new URL("./a.js", import.meta.url).href);
 console.log(await Deno.readTextFile(new URL("./a.js", import.meta.url)));
+require("./a");
 serve(() => new Response("hello"));
